@@ -1,6 +1,6 @@
 {
   "name": "gulp-tpl2json",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Make template files into JSON",
   "main": "index.js",
   "scripts": {

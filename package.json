@@ -1,0 +1,20 @@
+{
+  "name": "gulp-tpl2json",
+  "version": "0.0.1",
+  "description": "Make template files into JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "template",
+    "json"
+  ],
+  "dependencies": {
+    "concat-with-sourcemaps": "^1.0.4",
+    "gulp-util": "^3.0.0",
+    "through2": "^2.0.0"
+  },
+  "author": "vk (valleykiddy@gmail.com)",
+  "license": "MIT"
+}

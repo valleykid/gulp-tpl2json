@@ -77,8 +77,10 @@ module.exports = function(name, opt){
 		}
 
 		//joinedFile.contents = concat.content;
-		//console.log(concat.content.toString(), '/n');
-
+		var arr = concat.content.toString(), file;
+			arr = (arr || '').split('}{');
+			file = '{' + arr.pop();
+		joinedFile.contents = new Buffer(file);
 		this.push(joinedFile);
 
 		cb();
